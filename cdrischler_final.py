@@ -27,7 +27,7 @@ FILENAME = "volcanoes.csv"
 
 # READ IN DATA
 def read_data():
-    return pd.read_csv(FILENAME).set_index("Volcano Number")
+    return pd.read_csv(FILENAME)
 
 # QUERY ONE
 def all_regions():
